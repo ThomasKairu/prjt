@@ -245,8 +245,7 @@ export default function HomePage() {
             Trusted by Thousands
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'center', maxWidth: 700 }}>
-            Your files are automatically deleted after 1 hour. We prioritize your privacy and security. All
-            processing happens securely in the cloud with enterprise-grade encryption.
+            All processing happens locally in your browser. Your files never leave your device, ensuring maximum privacy. No server storage or cloud processing required.
           </Typography>
         </Stack>
       </Container>
