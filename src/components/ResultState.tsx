@@ -46,24 +46,6 @@ export default function ResultState({
         </Typography>
       )}
       
-      {/* Browser warning for PDF password protection */}
-      <Box sx={{
-        width: '100%',
-        p: 2,
-        bgcolor: 'warning.light',
-        borderRadius: 1,
-        border: '1px solid',
-        borderColor: 'warning.main',
-        textAlign: 'center'
-      }}>
-        <Typography variant="body2" sx={{ fontWeight: 600, color: 'warning.dark' }}>
-          ⚠️ Browser Limitation Notice
-        </Typography>
-        <Typography variant="caption" sx={{ color: 'text.secondary', mt: 1 }}>
-          Some browsers may bypass password prompts for locally downloaded PDFs.
-          For guaranteed security, open the PDF with Adobe Acrobat or dedicated PDF software.
-        </Typography>
-      </Box>
       
       
       <Button
